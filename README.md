@@ -1,2 +1,2 @@
-# Portfolio
-Core Curricular and Extracurricular Projects Expressing My Core Experience. 
+# Miles Meloni's Portfolio
+Core Curricular and Extracurricular Projects 
