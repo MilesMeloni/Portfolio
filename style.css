@@ -51,7 +51,7 @@ nav a:hover {
 
 header {
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 1rem 1rem;
     background:
         linear-gradient(to bottom,
         #f8f9f6,
@@ -113,9 +113,9 @@ h2::after {
 
 /* FOOTER */
 footer {
-    margin-top: 4rem;
+    margin-top: 2rem;
     text-align: center;
-    padding: 2rem 1rem;
+    padding: 1rem 1rem;
     color: white;
     background: var(--primary);
     border-top: 4px solid var(--accent);
