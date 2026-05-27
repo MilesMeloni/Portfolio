@@ -51,7 +51,7 @@ nav a:hover {
 
 header {
     text-align: center;
-    padding: 6rem 2rem;
+    padding: 3rem 2rem;
     background:
         linear-gradient(to bottom,
         #f8f9f6,
@@ -64,7 +64,7 @@ header h1 {
 }
 
 header p {
-    color: #55606b;
+    color: var(--text);
     font-size: 1.1rem;
 }
 
@@ -82,6 +82,11 @@ section {
     border-radius: 12px;
 
     box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+section p {
+    max-width: 750px;
+    margin: 0 auto;
 }
 
 section:hover {
@@ -108,10 +113,18 @@ h2::after {
 
 /* FOOTER */
 footer {
+    margin-top: 4rem;
     text-align: center;
-    padding: 2rem;
-    color: var(--bg);
+    padding: 2rem 1rem;
+    color: white;
     background: var(--primary);
+    border-top: 4px solid var(--accent);
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.95rem;
+    letter-spacing: 0.5px;
 }
 
 /* LINKS */
