@@ -91,17 +91,19 @@ section {
     border-radius: 12px;
 
     box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    /*transition: 0.2s ease;*/
 }
 
 section p {
     max-width: 750px;
     margin: 0 auto;
-    transition: 0.2s ease;
+    margin-bottom: 1rem;
 }
 
+/*
 section:hover {
     transform: translateY(-2px);
-}
+}*/
 
 /* HEADINGS */
 
@@ -163,6 +165,9 @@ a:hover {
     font-weight: 600;
 
     transition: 0.2s ease;
+
+    display: inline-block;
+    margin-top: 1.5rem;
 }
 
 .button:hover {
@@ -190,3 +195,4 @@ a:hover {
     margin-bottom: 0.3rem;
     color: var(--primary);
 }
+
